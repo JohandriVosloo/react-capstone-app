@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #f6f7fb;
+}
+
+.page-content {
+  padding-top: 80px; /* space for fixed header */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 40px;
+}
+
+.app-header {
+  background: #111827;
+}
+
+.app-header .navbar-brand,
+.app-header .nav-link,
+.app-header .navbar-text {
+  color: white !important;
+}
+
+.app-header .nav-link.active {
+  text-decoration: underline;
+}
